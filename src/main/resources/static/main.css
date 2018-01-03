@@ -1,0 +1,197 @@
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.board {
+    width: 1260px;
+    flex-direction: row;
+}
+
+.central {
+    width: 650px;
+    margin: 30px;
+    align-self: flex-start;
+}
+
+.sidebar {
+    width: 200px;
+    margin-top: 200px;
+    align-self: flex-start;
+}
+
+.left-sidebar {
+    width: 150px;
+}
+
+.right-sidebar {
+    width: 400px;
+}
+
+.central table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    margin: 20px;
+    width: 100%;
+}
+
+.central td, .central th {
+    border: 1px solid #999;
+    padding: 0.5rem;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.central tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+.right-sidebar table {
+    /*border-collapse: collapse;*/
+    table-layout: fixed;
+    /*margin: 20px;*/
+    width: 100%;
+}
+
+.right-sidebar td, .right-sidebar th {
+    /*border: 1px solid #999;*/
+    padding: 0.45rem;
+    text-align: left;
+    text-overflow: ellipsis;
+    /*white-space: nowrap;*/
+    overflow: hidden;
+}
+
+.info-title {
+    vertical-align: top;
+    text-align: right !important;
+    font-weight: bold;
+    width: 30%;
+}
+
+.block {
+    display: block;
+}
+
+.column40 {
+    width: 40%;
+}
+
+.column27 {
+    width: 27%;
+}
+
+.column20 {
+    width: 20%;
+    cursor: pointer;
+}
+
+.column13 {
+    width: 13%;
+    cursor: pointer;
+}
+
+textarea {
+    width: 95%;
+    resize: vertical;
+    height: 27px;
+    max-height: 200px;
+}
+
+input {
+    width: 96%;
+}
+
+form textarea {
+    margin: 5px 0 20px;
+}
+
+form input {
+    margin: 5px 0 20px;
+}
+
+.font-italic {
+    font-style: italic;
+}
+
+.product-name{
+    cursor: pointer;
+}
+
+/*BUTTONS*/
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 4px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+td .button {
+    font-size: 12px;
+    padding: 4px 10px;
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.button2 {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+}
+
+.button2:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+.button3 {
+    background-color: white;
+    color: black;
+    border: 2px solid #f44336;
+}
+
+.button3:hover {
+    background-color: #f44336;
+    color: white;
+}
+
+.button4 {
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+}
+
+.button4:hover {
+    background-color: #e7e7e7;
+}
+
+.button5 {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+
+.button5:hover {
+    background-color: #555555;
+    color: white;
+}
