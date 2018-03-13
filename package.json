@@ -4,7 +4,7 @@
   "description": "spring-boot-rest-and-reactjs",
   "repository": {
     "type": "git",
-    "url": "git@github.com:devTitarenko/ProductCatalog.git"
+    "url": "test@test.com"
   },
   "keywords": [
     "rest",
@@ -12,8 +12,6 @@
     "data",
     "react"
   ],
-  "author": "Vitalii Titarenko",
-  "homepage": "https://github.com/devTitarenko/ProductCatalog",
   "dependencies": {
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
